@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;0,800;1,300;1,600;1,800&display=swap')
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap")
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing:border-box;  
+}
+img{
+    max-width: 100%;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header-bg{
+    background-image: url(../images/bg.1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #01010094;
+    background-blend-mode: multiply;
+    width: 100%;
+    padding: 25px;
+
+}
+.logo a{
+    text-decoration: none;
+}
+.logo-h2{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+}
+.ls-spn{
+    font-size: 15px;
+    display: block;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid #ffffff00;
+    border-radius: 30px;
+    margin: 0px 10px;
+}
+nav ul li:last-child a{
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+}
+nav ul li a:hover{
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #fff;
+}
+.banner-section{
+}
+.banner-item{
+    text-align: center;
+    padding: 82px 0;
+}
+.bi-explore{
+    color: #fff;
+    font-style: italic;
+    font-size: 25px;
+    font-weight: 100;
+}
+.bi-unl{
+    width: 70px;
+    height: 5px;
+    background-color: #e90a52;
+    display: block;
+    margin: 10px auto 0;
+}
+.bi-gift{
+    color: #fff;
+    font-size: 65px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.learn-more{
+    font-size: 14px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #FB2056;
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 30px;
+}
+
+
+.bio{
+    width: 100%;
+    background-color: #F4F5F9;
+    font-family: 'Sacramento', cursive;
+    padding: 25px;
+}
+
+.bo-h2 {
+    font-size: 65px;
+    color: #fff;
+}
+
+.bo-h3 {
+    font-size: 20px;
+    color: #827a7acc;
+}
+.bo-spn{
+    display: block;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+
+
+.produst-section{}
+.ps-h2{
+    text-align: center;
+    font-size: 50px;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.ps-sn {
+    width: 100px;
+    height: 5px;
+    background-color: #e90a52;
+    display: block;
+    margin: 0 auto 35px;
+}
+
+.ps-img{
+    max-width: 100%;
+    height: 320px;
+    object-fit: cover;
+    box-shadow: 12px 10px 6px #EDEDED;
+    border-radius: 5px;
+}
+.ps-hl{
+    text-align: center;
+    font-size: 25px;
+    color: #333;
+    text-transform: uppercase;
+    margin: 50px 0 0;
+    padding: 10px;
+    
+}
+.ps-pg{
+    font-size: 25px;
+    color: #6b5f5f;
+    text-align: center;
+    padding: 8px;
+    margin-top: 0px;
+}
+.col-6 a{}
+
+
+
+.mid-banner-section{
+    background-image: url(../images/bg-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #01010094;
+    background-blend-mode: multiply;
+}
+
+.mbs-explore{
+    font-size: 60px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: 700;
+}
+.mbs-spn{
+    width: 100px;
+    height: 5px;
+    display: block;
+    background-color: #fb2056;
+    margin: 30px 0;
+}
+.mbs-p{
+    font-size: 20px;
+    color: #fff;
+    line-height: 1.2;
+    font-weight: 100;
+    margin: 32px 0;
+    padding: 0;
+    text-align: left;
+}
+.py-10{
+    padding: 150px 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.js-r8{
+    justify-content: flex-end;
+}
+.ads-section{}
+.ads-section .row{
+
+}
+
+.ads-info{
+    color: #333;
+    font-size: 32px;
+    text-transform: uppercase;
+    margin: 0 auto 32px;
+}
+.ads-spn{
+    width: 65px;
+    height: 5px;
+    display: block;
+    background-color: #fb2056;
+    margin-bottom: 40px;
+}
+.ads-pg{
+    font-size: 17px;
+    color: #6b5f5f;
+    line-height: 1.4;
+    margin-bottom: 40px;
+}
+
+.ads-section .row .col-4-12 img{}
+.small{
+    width: 100%;
+    height: 192px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    box-shadow: 7px 7px 4px #afaaaa12;
+}
+.large{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    box-shadow: 7px 7px 4px #afaaaa12;
+}
+footer{
+    width: 100%;
+    background-color: #191919;
+    text-align: center;
+}
+.fs-h3{
+    font-size: 25px;
+    color: #b6b0b0;
+}
